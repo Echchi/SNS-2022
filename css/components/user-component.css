@@ -11,6 +11,16 @@
     align-items: center;
 }
 
+.user-component__number{
+    display: flex;
+    align-items: center;
+}
+
+.user-component__number i {
+    color: rgb(238, 93, 68);
+    margin: 10px;
+}
+
 .user-component__avartar{
     width: 70px;
     height: 70px;
