@@ -33,11 +33,12 @@
 }
 
 .friends-screen__channel-header{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     color: var(--gray-text);
 }
+
 @keyframes hideSplashScreen {
     from{
         opacity: 1;
@@ -63,4 +64,27 @@
     font-size: 140px;
     animation: hideSplashScreen 0.3s ease-in-out forwards;
     animation-delay: 1s;
+}
+
+#splash-screen img{
+    width: 200px;
+    height: 200px;
+}
+
+.user-songs{
+    display: flex;
+    border: 2px solid #04df30;
+    padding: 5px 10px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.user-songs i{
+    color :#04df30;
+    margin-left: 15px;
+}
+
+.friends-screen__users{
+    display: flex;
+    flex-direction: column;
 }

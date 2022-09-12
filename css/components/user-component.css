@@ -1,9 +1,8 @@
+
 .user-component{
     justify-content: space-between;
-    margin-bottom: 10px
+    margin-bottom: 20px;
 }
-
-
 
 .user-component,
 .user-component__column:first-child{
@@ -26,6 +25,13 @@
     height: 70px;
     border-radius: 30px;
     margin-right: 20px;
+}
+
+.user-component__text span{
+    display: block;
+    margin-top: 5px;
+    color: var(--gray-text);
+    font-size: 13px;
 }
 
 .user-component__title{
