@@ -1,3 +1,4 @@
+
 #friends-display-link{
     text-align: center;
     display: block;
@@ -24,6 +25,7 @@
 
 .friends-screen{
     padding: 0px var(--horizontal-space);
+    height: 100vh;
 }
 
 .friends-screen__channel{
