@@ -57,7 +57,7 @@
 #splash-screen{
     background-color: var(--yellow);
     position: absolute;
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
     top: 0;
     display: flex;
@@ -89,4 +89,42 @@
 .friends-screen__users{
     display: flex;
     flex-direction: column;
+}
+
+@keyframes showFirends {
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(-10px);
+    }
+    
+}
+
+
+.friends-ani{
+    animation: showFirends 0.5s ease-in-out forwards;
+    animation-delay: 1s;
+}
+.friends-ani1{
+    animation: showFirends 0.5s ease-in-out forwards;
+    animation-delay: 1.5s;
+}
+.friends-ani2{
+    animation: showFirends 0.5s ease-in-out forwards;
+    animation-delay: 1.9s;
+}
+.friends-ani3{
+    animation: showFirends 0.5s ease-in-out forwards;
+    animation-delay: 2.2s;
+}
+.friends-ani4{
+    animation: showFirends 0.5s ease-in-out forwards;
+    animation-delay: 2.5s;
+}
+.friends-ani5{
+    animation: showFirends 10.5s ease-in-out forwards;
+    animation-delay: 2.8s;
 }
